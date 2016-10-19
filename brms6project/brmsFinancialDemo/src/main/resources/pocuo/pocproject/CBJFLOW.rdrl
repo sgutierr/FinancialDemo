@@ -1,0 +1,12 @@
+package pocuo.pocproject;
+
+import java.lang.Number;
+
+rule "CBJFLOW"
+	dialect "mvel"
+	ruleflow-group "j_flow"
+	when
+		FACT0 : pocIncome( cod_agrupacion in ( "'02P2'", "'02P3'", "'02P1'", "'02P4'", "'02P9'" ) , tipo_RNR in ( "1", "3" ) , seg_comercial in ( "'02P2'", "'02P3'", "'02P1'", "'02P4'", "'02P9'" ) )
+	then
+		FACT0.setId_cartera( "'000216'" );
+end

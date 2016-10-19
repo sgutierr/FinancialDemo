@@ -1,0 +1,12 @@
+package pocuo.pocproject;
+
+rule "decisionTree_0"
+	when 
+		pocIncome(tipo_pers == "F", tipo_RNR in  ( "1", "3" ))
+then 
+end
+rule "decisionTree_1"
+	when 
+		pocIncome(tipo_pers == "F", cod_agrupacion == "02P9", tipo_prod == "Credito")
+then 
+end

@@ -1,0 +1,14 @@
+package pocuo.pocproject;
+
+import java.lang.Number;
+
+rule "CBVALIDATEFLOW"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "test_flow"
+	when
+		FACT0 : pocIncome( seg_comercial != null )
+	then
+		FACT0.setId_cartera( "CONTENT VALIDATED" );
+		System.out.println("Executed Rule: " + drools.getRule().getName() );
+end

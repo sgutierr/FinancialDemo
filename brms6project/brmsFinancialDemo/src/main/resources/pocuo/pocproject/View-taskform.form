@@ -1,0 +1,63 @@
+
+<form id="493828147">
+<property name="name" value="View-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="viewpoc_cod_agrupacion" type="InputText" id="1369210078">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cod_agrupacion (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/cod_agrupacion"/>
+<property name="outputBinding" value="viewpocOut/cod_agrupacion"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="viewpoc_id_cartera" type="InputText" id="1814344709">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id_cartera (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/id_cartera"/>
+<property name="outputBinding" value="viewpocOut/id_cartera"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="viewpoc_id_contrato" type="InputText" id="1204808170">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id_contrato (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/id_contrato"/>
+<property name="outputBinding" value="viewpocOut/id_contrato"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="viewpoc_seg_comercial" type="InputText" id="1730039179">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;seg_comercial (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/seg_comercial"/>
+<property name="outputBinding" value="viewpocOut/seg_comercial"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="viewpoc_tipo_RNR" type="InputText" id="251043312">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipo_RNR (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/tipo_RNR"/>
+<property name="outputBinding" value="viewpocOut/tipo_RNR"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="viewpoc_tipo_pers" type="InputText" id="798951645">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipo_pers (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/tipo_pers"/>
+<property name="outputBinding" value="viewpocOut/tipo_pers"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="viewpoc_tipo_prod" type="InputText" id="1271821947">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipo_prod (viewpoc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="viewpocIn/tipo_prod"/>
+<property name="outputBinding" value="viewpocOut/tipo_prod"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="viewpocIn" name="#0000A0" type="dataModelerEntry" outId="viewpocOut" value="pocuo.pocproject.pocIncome" id="viewpoc"/>
+</form>

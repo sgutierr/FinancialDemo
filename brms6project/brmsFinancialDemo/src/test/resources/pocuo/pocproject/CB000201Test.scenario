@@ -1,0 +1,47 @@
+<scenario>
+  <name>CB000201Test.scenario</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures>
+    <fact-data>
+      <type>pocIncome</type>
+      <fieldData>
+        <field-data>
+          <name>seg_comercial</name>
+          <value>02P9</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>tipo_pers</name>
+          <value>F</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>cod_agrupacion</name>
+          <value>A536</value>
+          <nature>4</nature>
+        </field-data>
+      </fieldData>
+      <name>incomeFac</name>
+      <isModify>false</isModify>
+    </fact-data>
+    <execution-trace>
+      <executionTimeResult>43</executionTimeResult>
+      <numberOfRulesFired>5</numberOfRulesFired>
+    </execution-trace>
+    <expect-rule>
+      <ruleName>CB000201drl</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+  </fixtures>
+  <lastRunResult>2016-10-19 10:21:13.117 UTC</lastRunResult>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>pocuo.pocproject</packageName>
+  <imports>
+    <imports/>
+  </imports>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
+</scenario>

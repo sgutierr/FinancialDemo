@@ -25,8 +25,9 @@ Previous requirements:
 
 
 
-
-
 ## FAQs
+* Where is the inbound file to execute in the demo?
+  The file is entrada.dat located in https://github.com/sgutierr/FinancialDemo/tree/master/utils
+
 * Why this demo is executed on JBoss BPM Suite instead of JBoss BRMS?
-  The demo uses human tasks in some process to previsualize the results.
+  The demo uses human tasks in some processes to previsualize the results.
